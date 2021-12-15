@@ -19,7 +19,7 @@ public class Task0 {
 
         for (int i = 0; i < myArray.length; i++)
             for (int j = 0; j < myArray[i].length; j++)
-                for (int z = 0; z < myArray[j].length; z++)
+                for (int z = 0; z < myArray[i][j].length; z++)
                     myArray[i][j][z] += n;
         System.out.println(Arrays.deepToString(myArray));
     }
